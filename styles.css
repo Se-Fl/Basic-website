@@ -48,6 +48,11 @@ nav ul li, nav ul {
     padding: 0.4rem 1rem;
     background-color: white;
     border-radius: 8px;
+    border: 1px solid black;
+}
+
+.Logo, nav ul li {
+    cursor: pointer;
 }
 
 /* Front page aka or hero section styles */
@@ -84,12 +89,14 @@ nav ul li, nav ul {
 }
 
 .hero-inside button {
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
     background-color: #7369a5ff;
     border-radius: 8px;
     font-size: 1.3rem;
     color: white;
     width: 8rem;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .picture {
@@ -189,4 +196,12 @@ img {
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    padding: 4% 10%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
 }
