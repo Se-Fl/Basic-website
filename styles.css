@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #f2f7f3ff;
+}
+
+header, .hero-section, .statement-box, footer {
+    background-color: #b3a19dff;
+}
+
+.sign-box {
+    background-color: #7369a5ff;
+}
