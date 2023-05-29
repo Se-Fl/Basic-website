@@ -11,7 +11,7 @@ body {
 }
 
 /* Header and nav styles */
-header, .hero-section, .statement-box, .hero-color, footer {
+header, .hero-section, .hero-color, footer {
     background-color: #b3a19dff;
 }
 
@@ -155,13 +155,38 @@ img {
     padding: 12% 15%;
     margin: 3% 0;
     background-color: rgb(221, 209, 206);
+    font-style: italic;
 }
-
-
 
 /* Sign up box styles */
 .sign-box {
     background-color: #7369a5ff;
     display: flex;
-    margin: 0 20%;
+    margin: 10% 10%;
+    padding: 5% 6%;
+    color: white;
+    border-radius: 1rem;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+}
+
+.get {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.get-statement {
+    font-size: 1.2rem;
+}
+
+.sign-up-now {
+    flex-shrink: 0;
+    padding: 0.6rem 1.5rem;
+    background-color: #7369a5ff;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
 }
