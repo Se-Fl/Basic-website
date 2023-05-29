@@ -109,7 +109,7 @@ img {
 .main-text {
     font-size: 2.5vw;
     text-align: center;
-    margin: 6% 0 5% 0;
+    margin: 7% 0 5% 0;
 }
 
 .box-list {
@@ -148,6 +148,16 @@ img {
     margin: 1rem 0 6rem 0;
     flex: 1 0 0;
 }
+
+/* styles for the statement box*/
+.statement-box {
+    font-size: 1.8rem;
+    padding: 12% 15%;
+    margin: 3% 0;
+    background-color: rgb(221, 209, 206);
+}
+
+
 
 /* Sign up box styles */
 .sign-box {
