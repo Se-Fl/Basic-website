@@ -52,10 +52,6 @@ nav ul li, nav ul {
 
 /* Front page aka or hero section styles */
 
-.hero-color, html, body, main {
-    height: 100%;
-}
-
 .hero-section {
     display: flex;
     width: 80%;
@@ -63,6 +59,7 @@ nav ul li, nav ul {
     height: 100%;
     padding: 5% 0;
     box-sizing: border-box;
+    padding-bottom: 8%;
 }
 
 .hero-text {
@@ -105,7 +102,7 @@ nav ul li, nav ul {
 }
 
 img {
-    max-width: 120%;
+    height: 30rem;
 }
 
 /* Styles for list of MyKeyChain features */
