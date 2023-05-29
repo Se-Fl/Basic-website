@@ -52,10 +52,17 @@ nav ul li, nav ul {
 
 /* Front page aka or hero section styles */
 
+.hero-color, html, body, main {
+    height: 100%;
+}
+
 .hero-section {
     display: flex;
     width: 80%;
     margin: 0 auto;
+    height: 100%;
+    padding: 5% 0;
+    box-sizing: border-box;
 }
 
 .hero-text {
@@ -63,19 +70,42 @@ nav ul li, nav ul {
 }
 
 .hero-inside {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-right: 2rem;
 
+}
+
+.hero-inside h1 {
+    font-size: 4vw;
+}
+
+.hero-inside p {
+    font-size: 1.7vw;
+}
+
+.hero-inside button {
+    padding: 0.4rem 1rem;
+    background-color: #7369a5ff;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: white;
+    width: 8rem;
 }
 
 .picture {
     width: 50%;
     background-color: #7369a5ff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
-    max-width: 30%;
+    max-width: 120%;
 }
 
 /* Styles for list of MyKeyChain features */
