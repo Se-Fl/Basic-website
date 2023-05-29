@@ -20,16 +20,34 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    padding: 1rem 0;
     margin: 0 auto;
+}
+
+.Logo {
+    font-size: 1.5em;
+    color: white;
 }
 
 .nav-items {
     display: flex;
+    align-items: center;
 }
 
 nav ul li, nav ul {
     text-decoration: none;
     list-style-type: none;
+}
+
+.nav-items li {
+    font-size: 1.1rem;
+    margin-left: 1.1rem;
+}
+
+.sign-top {
+    padding: 0.4rem 1rem;
+    background-color: white;
+    border-radius: 8px;
 }
 
 /* Front page aka or hero section styles */
