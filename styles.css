@@ -107,18 +107,46 @@ img {
 
 /* Styles for list of MyKeyChain features */
 .main-text {
+    font-size: 2.5vw;
     text-align: center;
+    margin: 6% 0 5% 0;
 }
 
 .box-list {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .box {
     display: flex;
     flex-direction: column;
+}
+
+.icon-pic {
+    flex: 1 0 0;
+    max-width: 100%;
+    height: 80%;
+    object-fit: scale-down;
+    border: 5px solid #7369a5ff;
+    border-radius: 12px;
+}
+
+.box-list-pgr {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-size: 1.5vw;
+    gap: 0.8rem;
+}
+
+.box-list-pgr p {
+    margin: 1rem 0 6rem 0;
+    flex: 1 0 0;
 }
 
 /* Sign up box styles */
