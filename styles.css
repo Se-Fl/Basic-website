@@ -11,7 +11,7 @@ body {
 }
 
 /* Header and nav styles */
-header, .hero-section, .statement-box, footer {
+header, .hero-section, .statement-box, .hero-color, footer {
     background-color: #b3a19dff;
 }
 
@@ -19,6 +19,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .nav-items {
@@ -31,8 +33,27 @@ nav ul li, nav ul {
 }
 
 /* Front page aka or hero section styles */
+
 .hero-section {
     display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.picture {
+    width: 50%;
+    background-color: #7369a5ff;
 }
 
 img {
@@ -40,7 +61,13 @@ img {
 }
 
 /* Styles for list of MyKeyChain features */
+.main-text {
+    text-align: center;
+}
+
 .box-list {
+    width: 70%;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -53,4 +80,5 @@ img {
 .sign-box {
     background-color: #7369a5ff;
     display: flex;
+    margin: 0 20%;
 }
