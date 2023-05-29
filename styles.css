@@ -5,14 +5,52 @@
     font-family: Roboto, sans-serif;
 }
 
+/* General styles */
 body {
     background-color: #f2f7f3ff;
 }
 
+/* Header and nav styles */
 header, .hero-section, .statement-box, footer {
     background-color: #b3a19dff;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+}
+
+nav ul li, nav ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Front page aka or hero section styles */
+.hero-section {
+    display: flex;
+}
+
+img {
+    max-width: 30%;
+}
+
+/* Styles for list of MyKeyChain features */
+.box-list {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sign up box styles */
 .sign-box {
     background-color: #7369a5ff;
+    display: flex;
 }
